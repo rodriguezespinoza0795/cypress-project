@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "json:server": "json-server --watch db.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^10.0.3",
+    "json-server": "^0.17.0",
     "prettier": "^2.6.2"
   }
 }
